@@ -1,9 +1,38 @@
 body {
-    background-color: rgb(1, 1, 31);
+    background-image: url('https://springfieldmuseums.org/wp-content/uploads/2016/08/stars-in-the-night-sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
 }
 
 #page-wrapper {
     width: 90%;
     margin: 0 auto;
+    text-align: center;
+}
+
+#planet-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.planet-card {
+    width: 25%;
+    margin: 1.5%;
+    text-align: center;
+    border: 3px solid rgb(34, 65, 114);
+    background-color: black;
+}
+
+.planet-card h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
 }

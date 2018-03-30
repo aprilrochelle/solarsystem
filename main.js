@@ -5,7 +5,9 @@ const printToDom = (domString, divId) => {
 const buildCardString = (planetArray) => {
     let cardString = '';
     planetArray.forEach((planet) => {
-        cardString += `<h1>${planet.name}</h1>`;
+        cardString += `<div class="planet-card">`;
+        cardString +=   `<h1>${planet.name}</h1>`;
+        cardString += `</div>`;
     });
     printToDom(cardString, 'planet-holder');
 }

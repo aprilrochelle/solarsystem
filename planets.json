@@ -1,0 +1,68 @@
+{
+    "planets": [
+        {
+            "name": "Mercury",
+            "imageURL": "https://www.universetoday.com/wp-content/uploads/2010/06/Planet-Mercury.jpg",
+            "description": "Mercury is the closest planet to the sun. As such, it circles the sun faster than all the other planets, which is why Romans named it after their swift-footed messenger god. Because the planet is so close to the sun, Mercury's surface temperature can reach a scorching 840 degrees Fahrenheit (450 degrees Celsius). However, since this world doesn't have much of a real atmosphere to entrap any heat, at night temperatures can plummet to minus 275 F (minus 170 C), a temperature swing of more than 1,100 degrees F (600 degree C), the greatest in the solar system.",
+            "isGasPlanet": false,
+            "numberOfMoons": 0,
+            "nameOfLargestMoon": "N/A"
+        },
+        {
+            "name": "Venus",
+            "imageURL": "https://www.universetoday.com/wp-content/uploads/2010/06/Venus-Cloud-Tops-Viewed-by-Hubble.jpg",
+            "description": "Venus, the second planet from the sun, is named for the Roman goddess of love and beauty. The planet — the only planet named after a female — may have been named for the most beautiful deity of her pantheon because it shone the brightest of the five planets known to ancient astronomers. Venus is the hottest world in the solar system. Although Venus is not the planet closest to the sun, its dense atmosphere traps heat in a runaway version of the greenhouse effect that warms Earth. As a result, temperatures on Venus reach 870 degrees Fahrenheit (465 degrees Celsius), more than hot enough to melt lead. Probes that scientists have landed there have survived only a few hours before being destroyed.",
+            "isGasPlanet": false,
+            "numberOfMoons": 0,
+            "nameOfLargestMoon": "N/A"
+        },
+        {
+            "name": "Earth",
+            "imageURL": "https://d2a0do11gpvbrl.cloudfront.net/t.php?y=article_image&p=http://st.wthr.ws/sites/default/files/field/image/earth-full-view_6125_990x742.jpg",
+            "description": "Earth is the third planet from the sun. It is the only planet known to have an atmosphere containing free oxygen, oceans of liquid water on its surface, and, of course, life. Earth is the fifth largest of the planets in the solar system. Roughly 71 percent of Earth's surface is covered by water, most of it in the oceans. About a fifth of Earth's atmosphere is made up of oxygen, produced by plants. While scientists have been studying our planet for centuries, much has been learned in recent decades by studying pictures of Earth from space.",
+            "isGasPlanet": false,
+            "numberOfMoons": 1,
+            "nameOfLargestMoon": "The Moon. Duh."
+        },
+        {
+            "name": "Mars",
+            "imageURL": "https://s.hswstatic.com/gif/mars-a1.jpg",
+            "description": "Mars is the fourth planet from the sun. The bright rust color Mars is known for is due to iron-rich minerals in its regolith — the loose dust and rock covering its surface. The soil of Earth is a kind of regolith, albeit one loaded with organic content. According to NASA, the iron minerals oxidize, or rust, causing the soil to look red. The cold, thin atmosphere means liquid water likely cannot exist on the Martian surface for any length of time. Features called recurring slope lineae may have spurts of briny water flowing on the surface, but this evidence is disputed; some scientists argue the hydrogen spotted from orbit in this region may instead indicate briny salts. This means that although this desert planet is just half the diameter of Earth, it has the same amount of dry land.",
+            "isGasPlanet": false,
+            "numberOfMoons": 2,
+            "nameOfLargestMoon": "Phobos"
+        },
+        {
+            "name": "Jupiter",
+            "imageURL": "https://www.geek.com/wp-content/uploads/2013/09/jupiter-1-625x350.jpg",
+            "description": "Jupiter is the most massive planet in our solar system, more than twice as massive as all the other planets combined, and had it been about 80 times more massive, it would have actually become a star instead of a planet. Its atmosphere resembles that of the sun, made up mostly of hydrogen and helium, and with four large moons and many smaller moons in orbit around it, Jupiter by itself forms a kind of miniature solar system. All told, the immense volume of Jupiter could hold more than 1,300 Earths. The colorful bands of Jupiter are arranged in dark belts and light zones created by strong east-west winds in the planet's upper atmosphere traveling more than 400 mph (640 km/h). The white clouds in the zones are made of crystals of frozen ammonia, while darker clouds of other chemicals are found in the belts. At the deepest visible levels are blue clouds. Far from being static, the stripes of clouds change over time. Inside the atmosphere, diamond rain may fill the skies.",
+            "isGasPlanet": true,
+            "numberOfMoons": 53,
+            "nameOfLargestMoon": "Ganymede"
+        },
+        {
+            "name": "Saturn",
+            "imageURL": "https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA01464_hires.jpg",
+            "description": "Saturn is the sixth planet from the sun and the second largest planet in the solar system. Saturn is the farthest planet from Earth visible to the naked human eye, but it is through a telescope that the planet's most outstanding features can be seen: Saturn's rings. Saturn is a gas giant made up mostly of hydrogen and helium. Saturn is big enough to hold more than 760 Earths, and is more massive than any other planet except Jupiter, roughly 95 times Earth's mass. However, Saturn has the lowest density of all the planets, and is the only one less dense than water — if there were a bathtub big enough to hold it, Saturn would float. The yellow and gold bands seen in Saturn's atmosphere are the result of super-fast winds in the upper atmosphere, which can reach up to 1,100 mph (1,800 km/h) around its equator, combined with heat rising from the planet's interior.",
+            "isGasPlanet": true,
+            "numberOfMoons": 53,
+            "nameOfLargestMoon": "Titan"
+        },
+        {
+            "name": "Uranus",
+            "imageURL": "http://vedmochka.net/images/new_year_2018/uran.jpg",
+            "description": "Uranus is the seventh planet from the Sun and the third largest (by diameter). Uranus is larger in diameter but smaller in mass than Neptune. Uranus' blue color is the result of absorption of red light by methane in the upper atmosphere. There may be colored bands like Jupiter's but they are hidden from view by the overlaying methane layer. Like the other gas planets, Uranus has rings. Like Jupiter's, they are very dark but like Saturn's they are composed of fairly large particles ranging up to 10 meters in diameter in addition to fine dust. There are 13 known rings, all very faint; the brightest is known as the Epsilon ring. The Uranian rings were the first after Saturn's to be discovered. This was of considerable importance since we now know that rings are a common feature of planets, not a peculiarity of Saturn alone.",
+            "isGasPlanet": true,
+            "numberOfMoons": 27,
+            "nameOfLargestMoon": "Titania"
+        },
+        {
+            "name": "Neptune",
+            "imageURL": "https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA01492_hires.jpg",
+            "description": "Neptune is the eighth planet from the sun. It was the first planet to get its existence predicted by mathematical calculations before it was actually seen through a telescope on Sept. 23, 1846. Like Earth, Neptune has a rocky core, but it has a much thicker atmosphere that prohibits the existence of life as we know it. Astronomers are still trying to figure out at what point a planet is so large that it may pick up a lot of gas in the area, making it difficult or impossible for life to exist. Neptune's cloud cover has an especially vivid blue tint that is partly due to an as-yet-unidentified compound and the result of the absorption of red light by methane in the planets mostly hydrogen-helium atmosphere. Photos of Neptune reveal a blue planet, and it is often dubbed an ice giant, since it possesses a thick, slushy fluid mix of water, ammonia and methane ices under its atmosphere and is roughly 17 times Earth's mass and nearly 58 times its volume, according to a NASA fact sheet.",
+            "isGasPlanet": true,
+            "numberOfMoons": 13,
+            "nameOfLargestMoon": "Triton"
+        }
+    ]
+}

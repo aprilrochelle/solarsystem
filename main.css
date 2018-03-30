@@ -36,3 +36,11 @@ h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 2em;
 }
+
+.hidden {
+    display: none;
+}
+
+.planet-pic {
+    width: 90%;
+}

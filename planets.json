@@ -34,7 +34,7 @@
         },
         {
             "name": "Jupiter",
-            "imageURL": "https://www.geek.com/wp-content/uploads/2013/09/jupiter-1-625x350.jpg",
+            "imageURL": "http://cdn.sci-news.com/images/enlarge3/image_4461e-Jupiter.jpg",
             "description": "Jupiter is the most massive planet in our solar system, more than twice as massive as all the other planets combined, and had it been about 80 times more massive, it would have actually become a star instead of a planet. Its atmosphere resembles that of the sun, made up mostly of hydrogen and helium, and with four large moons and many smaller moons in orbit around it, Jupiter by itself forms a kind of miniature solar system. All told, the immense volume of Jupiter could hold more than 1,300 Earths. The colorful bands of Jupiter are arranged in dark belts and light zones created by strong east-west winds in the planet's upper atmosphere traveling more than 400 mph (640 km/h). The white clouds in the zones are made of crystals of frozen ammonia, while darker clouds of other chemicals are found in the belts. At the deepest visible levels are blue clouds. Far from being static, the stripes of clouds change over time. Inside the atmosphere, diamond rain may fill the skies.",
             "isGasPlanet": true,
             "numberOfMoons": 53,
@@ -50,7 +50,7 @@
         },
         {
             "name": "Uranus",
-            "imageURL": "http://vedmochka.net/images/new_year_2018/uran.jpg",
+            "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg",
             "description": "Uranus is the seventh planet from the Sun and the third largest (by diameter). Uranus is larger in diameter but smaller in mass than Neptune. Uranus' blue color is the result of absorption of red light by methane in the upper atmosphere. There may be colored bands like Jupiter's but they are hidden from view by the overlaying methane layer. Like the other gas planets, Uranus has rings. Like Jupiter's, they are very dark but like Saturn's they are composed of fairly large particles ranging up to 10 meters in diameter in addition to fine dust. There are 13 known rings, all very faint; the brightest is known as the Epsilon ring. The Uranian rings were the first after Saturn's to be discovered. This was of considerable importance since we now know that rings are a common feature of planets, not a peculiarity of Saturn alone.",
             "isGasPlanet": true,
             "numberOfMoons": 27,

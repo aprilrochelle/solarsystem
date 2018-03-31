@@ -32,8 +32,7 @@ const planetChosenShowInfo = (e) => {
     
 }
 const searchCards = (e) => {
-    let userSearch = e.target.parentNode.children[1].value.split(' ');
-    console.log(userSearch);
+    let userSearch = e.target.parentNode.children[1].value.toLowerCase().split(' ');
     searchXHR(userSearch);
 }
 
@@ -132,13 +131,13 @@ const searchXHR = (input) => {
     let mySearchRequest = new XMLHttpRequest();
     mySearchRequest.addEventListener('load', function() {
         const data3 = JSON.parse(this.responseText);
-        for (let p=0; p<input.length; p++) {
-            for (let n=0; n<data3.planets.length; n++) { 
-                if (input[p].includes(data3.planets[n].name)) {
-                    makeBigCardz(data3.planets[n]);
-                }
+        const planetz = [];
+        for (let n=0; n<data3.planets.length; n++) {
+            if (input.includes(data3.planets[n].name.toLowerCase())) {
+                planetz.push(data3.planets[n]);
             }
         }
+        makeBigCardz(planetz);
     });
     mySearchRequest.addEventListener('error', ifFail);
     mySearchRequest.open("GET", "planets.json");

@@ -45,12 +45,25 @@ h1 {
     position: relative;
 }
 
-.planet-card h1 {
+.med-planet-card {
+    width: 40%;
+    margin: 1.5%;
+    text-align: center;
+    border: 3px solid rgb(34, 65, 114);
+    background-color: black;
+    min-height: 300px;
+    position: relative;
+}
+
+.planet-card h1,
+.big-planet-card h1,
+.med-planet-card h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 2em;
 }
 
-.big-planet-card h2 {
+.big-planet-card h2,
+.med-planet-card h2 {
     font-family: 'Nunito', sans-serif;
     font-size: 3em;
     color: red;
@@ -60,8 +73,9 @@ h1 {
     margin: 0;
 }
 
-.big-planet-card p {
-    padding: 20px;
+.big-planet-card p,
+.med-planet-card p {
+    padding: 30px;
 }
 
 .hidden {

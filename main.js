@@ -135,6 +135,8 @@ const searchXHR = (input) => {
         for (let n=0; n<data3.planets.length; n++) {
             if (input.includes(data3.planets[n].name.toLowerCase())) {
                 planetz.push(data3.planets[n]);
+            } else if (data3.planets[n].description.indexOf(input) >= 0) {
+                planetz.push(data3.planets[n]);
             }
         }
         makeBigCardz(planetz);

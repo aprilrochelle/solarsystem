@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    font-family: 'Mina', sans-serif;
 }
 
 h1 {
@@ -30,11 +31,37 @@ h1 {
     text-align: center;
     border: 3px solid rgb(34, 65, 114);
     background-color: black;
+    min-height: 300px;
+    position: relative;
+}
+
+.big-planet-card {
+    width: 80%;
+    margin: 1.5%;
+    text-align: center;
+    border: 3px solid rgb(34, 65, 114);
+    background-color: black;
+    min-height: 300px;
+    position: relative;
 }
 
 .planet-card h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 2em;
+}
+
+.big-planet-card h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+    color: red;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    margin: 0;
+}
+
+.big-planet-card p {
+    padding: 20px;
 }
 
 .hidden {
